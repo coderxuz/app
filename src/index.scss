@@ -129,17 +129,64 @@ header {
       }
     }
   }
+  .count{
+    @include flex;
+    gap: 20px;
+    color: $light;
+  }
 }
 .content {
+  padding: 20px 0;
   .container {
     @include flex;
+    justify-content: center;
+    position: relative;
   }
   form {
     @include flex;
     justify-self: center;
-    justify-content: center;
+    width: 700px;
+    gap: 20px;
+    height: 30px;
+    input{
+      width: 90%;
+      height: 100%;
+      border: 1px solid $gray;
+    }
+    .selecting{
+      width: 10%;
+      height: 100%;
+      @include flex;
+      justify-content: center;
+      border-radius: 4px;
+      @include shadow;
+      cursor: pointer;
+      .modal{
+        display: none;
+      }
+    }
   }
   .task {
     @include column;
+    justify-self: end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    button{
+      @include btn;
+    }
+    &-modal{
+      width: 130px;
+      margin-right: 25px;
+      box-shadow: 0 3px 6px 0 rgba(26, 24, 29, .16), 0 3px 6px 0 rgba(26, 24, 29, .24);
+      padding: 10px;
+      @include column;
+      align-items: start;
+      gap: 10px;
+      cursor: pointer;
+      margin-top: 5px;
+      display: none;
+    }
   }
 }

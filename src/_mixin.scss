@@ -7,3 +7,14 @@
   @include flex;
   flex-direction: column;
 }
+@mixin btn {
+  background: #4f2a93;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: $light;
+  cursor: pointer;
+}
+@mixin shadow{
+  box-shadow: 0 3px 6px 0 rgba(26, 24, 29, .16), 0 3px 6px 0 rgba(26, 24, 29, .24);
+}
