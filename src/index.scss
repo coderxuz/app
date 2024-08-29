@@ -129,7 +129,7 @@ header {
       }
     }
   }
-  .count{
+  .count {
     @include flex;
     gap: 20px;
     color: $light;
@@ -148,12 +148,12 @@ header {
     width: 700px;
     gap: 20px;
     height: 30px;
-    input{
+    input {
       width: 90%;
       height: 100%;
       border: 1px solid $gray;
     }
-    .selecting{
+    .selecting {
       width: 10%;
       height: 100%;
       @include flex;
@@ -161,7 +161,7 @@ header {
       border-radius: 4px;
       @include shadow;
       cursor: pointer;
-      .modal{
+      .modal {
         display: none;
       }
     }
@@ -173,20 +173,132 @@ header {
     right: 0;
     top: 0;
     width: 200px;
-    button{
+    button {
       @include btn;
     }
-    &-modal{
+    &-modal {
       width: 130px;
       margin-right: 25px;
-      box-shadow: 0 3px 6px 0 rgba(26, 24, 29, .16), 0 3px 6px 0 rgba(26, 24, 29, .24);
-      padding: 10px;
+      box-shadow: 0 3px 6px 0 rgba(26, 24, 29, 0.16),
+        0 3px 6px 0 rgba(26, 24, 29, 0.24);
       @include column;
       align-items: start;
-      gap: 10px;
       cursor: pointer;
       margin-top: 5px;
       display: none;
+      background-color: $light;
+      p {
+        width: 100%;
+        padding: 5px;
+        &:hover {
+          background-color: $bg-gray;
+        }
+      }
     }
   }
+}
+.box {
+  height: 700px;
+  .container {
+    @include flex;
+    height: 100%;
+  }
+  &-content {
+    background-color: $bg-gray;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+    textarea {
+      width: 100%;
+      resize: none;
+      padding: 15px 0;
+      background-color: $area-col;
+      transition: 0.5s;
+      border-color: #a5a1ac;
+      &:focus {
+        background-color: $light;
+        border-color: #a5a1ac;
+      }
+    }
+  }
+  &-inner {
+    height: 100%;
+    flex-basis: 33%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+.habits {
+  @include flex;
+  height: 100px;
+  margin: 5px 0;
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+  img {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    opacity: 0;
+  }
+  .habTop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include flex;
+    p{
+      position: absolute;
+      left: 0;
+    }
+  }
+  .arithmetic {
+    background-color: $green;
+    height: 100%;
+    width: 50px;
+    @include center;
+    font-size: 30px;
+    color: $light;
+    border-radius: 5px;
+  }
+  .habInfo {
+    @include flex;
+    width: 400px;
+    position: relative;
+    height: 100%;
+
+    .delManu {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      .delModal {
+        padding: 1px;
+        @include column;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: $light;
+        border-radius: 2px;
+        display: none;
+        span {
+          padding: 10px;
+          width: 100%;
+          &:hover {
+            background-color: $bg-gray;
+          }
+        }
+      }
+    }
+  }
+}
+.hide {
+  display: flex !important;
 }

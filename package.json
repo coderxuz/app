@@ -14,8 +14,10 @@
     "vite": "^5.4.1"
   },
   "dependencies": {
+    "@types/lodash": "^4.17.7",
     "@types/navigo": "^8.1.2",
     "axios": "^1.7.5",
+    "lodash": "^4.17.21",
     "navigo": "^8.11.1",
     "sass": "^1.77.8"
   }

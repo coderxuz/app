@@ -1,5 +1,46 @@
 {
-    "user":[
-        
-    ]
+  "habits": [
+    {
+      "id": "ee55",
+      "text": "hgff",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "6ff1",
+      "text": "hello",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "4cd0",
+      "text": "hello",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "83ac",
+      "text": "hello",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "49a4",
+      "text": "hello",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "c926",
+      "text": "hello",
+      "good": 0,
+      "bad": 0
+    },
+    {
+      "id": "21be",
+      "text": "rrhrhrhr",
+      "good": 0,
+      "bad": 0
+    }
+  ]
 }

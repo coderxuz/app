@@ -18,3 +18,8 @@
 @mixin shadow{
   box-shadow: 0 3px 6px 0 rgba(26, 24, 29, .16), 0 3px 6px 0 rgba(26, 24, 29, .24);
 }
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
