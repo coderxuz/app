@@ -3,44 +3,76 @@
     {
       "id": "ee55",
       "text": "hgff",
-      "good": 0,
-      "bad": 0
+      "good": 23,
+      "bad": 14
     },
     {
-      "id": "6ff1",
+      "id": "1fb9",
+      "text": "hello",
+      "good": 18,
+      "bad": 23
+    },
+    {
+      "id": "7918",
+      "text": "salom",
+      "good": 21,
+      "bad": 21
+    },
+    {
+      "id": "9362",
+      "text": "ffhdfhdfh",
+      "good": 8,
+      "bad": 15
+    },
+    {
+      "id": "6f37",
+      "text": "hfdhf",
+      "good": 11,
+      "bad": 2
+    },
+    {
+      "id": "c102",
+      "text": "hfhfdh",
+      "good": 0,
+      "bad": 1
+    },
+    {
+      "id": "e75b",
+      "text": "hfdhdf",
+      "good": 0,
+      "bad": 1
+    },
+    {
+      "id": "cdfd",
+      "text": "hfdhfd",
+      "good": 2,
+      "bad": 1
+    },
+    {
+      "id": "1559",
+      "text": "hghjgf",
+      "good": 1,
+      "bad": 1
+    }
+  ],
+  "dailies": [
+    {
+      "id": "ff26",
+      "text": "hello",
+      "good": 16,
+      "bad": 21
+    },
+    {
+      "id": "886e",
       "text": "hello",
       "good": 0,
       "bad": 0
     },
     {
-      "id": "4cd0",
-      "text": "hello",
-      "good": 0,
-      "bad": 0
-    },
-    {
-      "id": "83ac",
-      "text": "hello",
-      "good": 0,
-      "bad": 0
-    },
-    {
-      "id": "49a4",
-      "text": "hello",
-      "good": 0,
-      "bad": 0
-    },
-    {
-      "id": "c926",
-      "text": "hello",
-      "good": 0,
-      "bad": 0
-    },
-    {
-      "id": "21be",
-      "text": "rrhrhrhr",
-      "good": 0,
-      "bad": 0
+      "id": "92a4",
+      "text": "fjfjg",
+      "good": 11,
+      "bad": 4
     }
   ]
 }
