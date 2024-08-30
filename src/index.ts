@@ -128,6 +128,8 @@ window.addEventListener("DOMContentLoaded", () => {
                   good:good+1
                 }).then(res=>{
                   location.reload()
+                  console.log(res);
+                  
                 })
               }
             })
@@ -152,6 +154,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   bad:bad
                 }).then(res=>{
                   location.reload()
+                  console.log(res);
                 })
               }
             })
@@ -285,6 +288,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   good:good+1
                 }).then(res=>{
                   location.reload()
+                  console.log(res);
                 })
               }
             })
@@ -309,6 +313,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   bad:bad
                 }).then(res=>{
                   location.reload()
+                  console.log(res);
                 })
               }
             })
